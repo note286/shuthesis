@@ -8,7 +8,7 @@
 %% 
 %% This is a generated file.
 %% 
-%% Copyright (C) 2017-2017 by Lele Liu <ahhylau@gmail.com>
+%% Copyright (C) 2017-2026 by Lele Liu <ahhylau@gmail.com>
 %% 
 %% This file may be distributed and/or modified under the
 %% conditions of the LaTeX Project Public License, either version 1.3a
@@ -80,7 +80,7 @@
 \RequirePackage{mathrsfs}
 \RequirePackage{bm}
 \RequirePackage{mathtools}
-\RequirePackage[defaultsups]{newtxtext}
+\setmainfont{Times New Roman}
 \RequirePackage{courier}
 \RequirePackage{graphicx}
 \RequirePackage[labelformat=simple]{subcaption}
@@ -430,7 +430,7 @@
    \arrayrulewidth=1pt
      \begin{tabu} to 0.9\textwidth{|X[1,c,m]|X[11,c,m]|}
        \hline
-       \zihao{-2}\ifxetex\HanYikai\else\bfseries\kaishu\fi\makecell{题\\ 目} &
+       \zihao{-2}\ifxetex\HanYikai\else\bfseries\kaishu\fi 题目 &
        \erhao[1.4]\bfseries\ifxetex\LanTingHei\else\heiti\fi\tabulinesep=_1.5mm^1.5mm
           \begin{tabu}{X[c,m]}
             \shu@ctitle

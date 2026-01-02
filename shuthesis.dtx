@@ -848,11 +848,10 @@
 \RequirePackage{mathtools}
 %    \end{macrocode}
 %
-% \pkg{newtx} 设置 Times New Roman, Helvetica.
+% 设置 Times New Roman.
 %
 %    \begin{macrocode}
-\RequirePackage[defaultsups]{newtxtext}
-% \RequirePackage{newtxmath}
+\setmainfont{Times New Roman}
 %    \end{macrocode}
 %
 % \pkg{newtx} 的 Mono 字体虽然很好看, 但在论文中不常见. 学校虽未要求 Mono 字
@@ -1766,7 +1765,7 @@
    \arrayrulewidth=1pt
      \begin{tabu} to 0.9\textwidth{|X[1,c,m]|X[11,c,m]|}
        \hline
-       \zihao{-2}\ifxetex\HanYikai\else\bfseries\kaishu\fi\makecell{题\\ 目} &
+       \zihao{-2}\ifxetex\HanYikai\else\bfseries\kaishu\fi 题目 &
        \erhao[1.4]\bfseries\ifxetex\LanTingHei\else\heiti\fi\tabulinesep=_1.5mm^1.5mm 
           \begin{tabu}{X[c,m]} 
             \shu@ctitle
